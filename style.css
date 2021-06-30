@@ -1,0 +1,237 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    height: 100px;
+    padding: 0 10px;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 0 10px;
+}
+
+.logo_container img{
+    width: 50px;
+    height: 50px;
+}
+
+.header_content{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Images/banner-bg.png);
+}
+
+main section{
+    margin: 10% 0;
+}
+
+
+.section_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section_container_content h1{
+    font-weight: 700px;
+    font-size: 3.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 8px;
+}
+
+.section_container_content *{
+    margin-left: 12px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.section_container_content button{
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 6.5rem;
+}
+.section_container_image img{
+    width: 62%;
+}
+
+.service_container_cards{
+ width: 100%;
+ display: flex; 
+ flex-wrap: wrap;
+ /* padding: 20px;   */
+}
+.service_container_content{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.service_container_content h2{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+.service_container_content p{
+    color: #6c757d;
+    font-size: 1.6rem;
+    font-weight:300;
+}
+
+.card{
+    width: 33%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+.card * {
+    margin: 5px 0;
+}
+
+.card_image img{
+    width: 100px;
+    height: 65px;
+    object-fit: contain;
+}
+
+.about_content{
+    display: flex;
+    width: 100%;
+    padding: 10px 10px 30px 10px;
+}
+
+.about_contents{
+    width: 50%;
+
+}
+
+.about_contents,.card_heading h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.about_contents,.card_text p{
+    color: #6c757d;
+    font-size: 1.2rem;
+    font-weight:300;
+    line-height: 1.4;
+    letter-spacing: 1;
+}
+
+.about_image{
+    width: 50%;
+}
+
+.about_image img{
+    width: 70%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.team_card_container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.team_card
+{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 4px 8px -1px #ddd;
+    margin: 18px auto;
+}
+
+.team_card h2{
+
+}
+
+.team_card p{
+color: blue;    
+}
+.team_image img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.team_info{
+    text-align: center;
+}
+
+.team_info *{
+    margin: 5px 0;
+}
+
+.team_social *{
+    padding: 5px;
+}
+
+.contact_info{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form *{
+    padding: 10px 40px;
+    margin: 10px;
+}
+
+.contact_card{
+    padding: 20px 60px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* footer */
+
+footer{
+    background-color: blue;
+    color: white;
+    padding: 7% 0;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_social a{
+    color: white;
+}
